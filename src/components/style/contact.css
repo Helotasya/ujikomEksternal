@@ -1,0 +1,92 @@
+.info-contact{
+    width: 100vw;
+    height : 100vh;
+    display:flex;
+    background-color:white;
+    position: relative;
+}
+
+.call{
+    width: 50vw;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    padding: 30px;
+    
+}
+
+.location{
+    display: inline-block;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+}
+
+.isi-loc {
+    display:inline-block;
+}
+
+.location span{
+    font-family: playfair display;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 2px solid #222;
+    padding-bottom: 3px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left:0;
+    margin-top:0;
+    position: relative;
+    top:0;
+}
+
+.isi-body p{
+    width: 500px;
+    height: 20px;
+    text-align: left;
+    justify-content: center;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.call span{
+    font-family: playfair display;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 2px solid #222;
+    padding-bottom: 3px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.lazy-body{
+    width: 50%;
+    height: 20px;
+    text-align: left;
+    justify-content: center;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.lazy-body p{
+    line-height: 26px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+p{
+    line-height: 170%;
+    font-size: 14px;
+    margin: 0, 0, 24px;
+}
+
+.yo{
+    margin: 20px;
+    margin-left: 0;
+}

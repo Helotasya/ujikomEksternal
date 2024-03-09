@@ -1,0 +1,116 @@
+.screen{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+
+
+.b-1{
+    width: 100px;
+    font-size: 40px;
+    display: flex;
+}
+
+.kembali-ke{
+    color:#BDCF8C;
+    position: absolute;
+    font-size: 45px;
+    top:80px;
+    left:400px
+}
+
+.kembali-ke:hover{
+    color: #143601;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.isi-form{
+    margin-top: 50px;
+    width: 300px;
+    height: 100%;
+    margin-left: 40%;
+}
+
+.isi-form h2{
+    font-size: 30px;
+    font-family: playfair display;
+    color:#667837;
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+
+.satu, .dua, .tiga, .empat{
+    width: 300px;
+    height: 50px;
+    background-color: #BDCF8C;
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: white;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.sub-butt{
+    cursor: pointer;
+    margin-top: 40px;
+    border-width: 1px;
+    background-color: transparent;
+    border-color: #04471C;
+    width: 150px;
+    height: 50px;
+    font-family: monospace;
+    font-size:20px;
+    font-weight:400;
+    border-radius: 30px;
+}
+
+.sub-butt:hover{
+    border-width: 3px;
+    border-color: #BDCF8C;
+    background-color: rgba(9, 106, 46, 0.533);
+    color: white;
+    transition: 0.5s;
+}
+
+
+.crt{
+    margin-left: 85%;
+    margin-top: 15px;
+    margin-bottom: 45px;
+   font-size: 35px;
+   color: #667837;
+}
+
+.crt:hover{
+    color:#04471C;
+    transform: scale(1.1);
+}
+
+
+.deleteya{
+    border: none;
+    background-color: transparent;
+}
+
+.dlt{
+   margin-left: 10px;
+   margin-right: 10px;
+   font-size: 25px;
+   color: #667837;
+}
+
+.dlt:hover{
+    color:#04471C;
+    transform: scale(1.1);
+}
+
+
+
+

@@ -1,0 +1,105 @@
+
+
+.card-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #BDCF8C;
+    
+}
+.box-1{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width: 100%;
+    height: 100%;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.isi{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+.judul{
+    width:auto;
+    height: auto;
+    padding-top: 15px;
+}
+.judul h1{
+    color: #04471C;
+    font-family: playfair display;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.menu-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.menu-1{
+    font-size: 15px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.menu-1 h3{
+    font-weight: 500;
+    color: green;
+}
+
+
+.menu-1 p{
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+.menu-2 h3{
+    font-family: playfair display;
+    line-height: 20px;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+/* pertombolan */
+
+.pertombolan{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewya, .editya{
+    width: 50px;
+    height: 30px;
+    font-size: 30px;
+    color:#667837;
+}
+
+.viewya:hover, .editya:hover{
+    color:#04471C;
+    transform: scale(1.1);
+}

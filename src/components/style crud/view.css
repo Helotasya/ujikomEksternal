@@ -1,0 +1,62 @@
+.blk{
+    position: absolute;
+    font-size: 45px;
+    top:80px;
+    left:400px;
+    color: #667837;
+}
+
+.blk:hover{
+    color: #143601;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.screen-view{
+    position: relative;
+    background-color: #BDCF8C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-kotak{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.view-kotak h1{
+       color: #04471C;
+    font-family: playfair display;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.view-kotak h3{
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    font-weight: 500;
+    color: green;
+}
+
+.view-kotak p{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.view-kotak h2{
+    padding-top: 20px;
+    font-family: playfair display;
+    line-height: 20px;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}

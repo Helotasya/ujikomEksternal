@@ -1,0 +1,81 @@
+.screen-update{
+    height:500vh;
+    background-color: transparent;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.bl{
+    width: 100px;
+    font-size: 40px;
+    display: flex; 
+}
+
+.kmbli-k{
+    color:#BDCF8C;
+    position: absolute;
+    font-size: 45px;
+    top:80px;
+    left:400px
+}
+
+.kmbli-k:hover{
+    color: #143601;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.form-sub{
+    margin-top: 50px;
+    width: 300px;
+    height: 100%;
+    margin-left: 40%;
+}
+.form-sub h2{
+    font-size: 30px;
+    font-family: playfair display;
+    color:#667837;
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.lima, .enam, .tujuh, .delapan{
+    width: 300px;
+    height: 50px;
+    background-color: #BDCF8C;
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: white;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+
+
+/* button penyelamat */
+.kirim-button{
+    cursor: pointer;
+    margin-top: 40px;
+    border-width: 1px;
+    background-color: transparent;
+    border-color: #04471C;
+    width: 150px;
+    height: 50px;
+    font-family: monospace;
+    font-size:20px;
+    font-weight:400;
+    border-radius: 30px;
+}
+
+.kirim-button:hover{
+    border-width: 3px;
+    border-color: #BDCF8C;
+    background-color: rgba(9, 106, 46, 0.533);
+    color: white;
+    transition: 0.5s;
+}
+

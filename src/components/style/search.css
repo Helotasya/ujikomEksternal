@@ -1,0 +1,110 @@
+.paling-perent{
+    display:flex;
+    flex-wrap:wrap;
+    position: relative;
+    height: 500vh;
+    flex-direction:row;
+    background-color:#BDCF8C;
+}
+ 
+.place-container{
+    width: 100px;
+    height: 100px;
+    margin-left: 170%;
+
+}
+
+.btn-danger{
+    font-size: 30px;
+    color:#667837;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left:400px;
+    cursor: pointer;
+    margin-top: 300;
+}
+
+.cnl-butt:hover{
+   color: #096A2E;
+    transform: scale(1.1);
+}
+
+.btn-outline-secondary:hover{
+color: #096A2E;
+    transform: scale(1.1);
+}
+
+.form-control{
+    width: 300px;
+    height: 50px;
+    background-color: #BDCF8C;
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: white;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-left: 170%;
+    margin-top:50px ;
+    
+}
+
+.btn-outline-secondary{
+    cursor: pointer;
+    font-size: 30px;
+    color:#667837;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left:850px;
+    top: 300
+
+}
+
+
+/* layer per 1 */
+.isi{
+    margin-top:200px;  
+    margin-left: 0; 
+    margin-right: 100px;
+    width: 300px;
+    height: 200px;
+
+}
+
+.isi h1{
+    padding-top: 15px;
+    color:#096A2E;
+    font-family: playfair display;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.isi h5{
+    font-size: 20px;
+    font-family: playfair display;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.isi p{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #667837;
+}
+
+.read-more a{
+    text-decoration: inherit;
+    font-size: 14px;
+    font-weight: 300;
+    color: #BDCF8C;
+}
+
+.read-more a:hover{
+    color: #096A2E;
+}

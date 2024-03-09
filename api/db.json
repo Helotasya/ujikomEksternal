@@ -1,0 +1,96 @@
+{
+  "foods": [
+    {
+      "id": "0025",
+      "name": " kucing",
+      "budget": "123",
+      "description": " fdcadfcadaga",
+      "foodType": "vadvdv"
+    },
+    {
+      "id": "bda5",
+      "name": "wcw",
+      "budget": "22",
+      "description": "efe",
+      "foodType": "ccce"
+    },
+    {
+      "id": "b45e",
+      "name": "kucing",
+      "budget": "1234",
+      "description": " jihbk,",
+      "foodType": "njnijn"
+    },
+    {
+      "id": "d518",
+      "name": "tahu",
+      "budget": "12",
+      "description": "apa aja",
+      "foodType": "apa"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Tasya Ana",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "name": "Tasya Ana",
+      "password": "123"
+    },
+    {
+      "id": "3",
+      "name": "Arayyan",
+      "password": "123"
+    },
+    {
+      "id": "4",
+      "name": "Tasya rayn",
+      "password": "123"
+    },
+    {
+      "id": "5",
+      "name": "Muhsin",
+      "password": "123"
+    }
+  ],
+  "cabang": [
+    {
+      "id": "1",
+      "img": "budget",
+      "daerah": "solo",
+      "date": "22 juli 2023",
+      "description": "mekar sari"
+    },
+    {
+      "id": "2",
+      "img": "budget",
+      "daerah": "samarinda",
+      "date": "22 juli 2023",
+      "description": "patimura dustika"
+    },
+    {
+      "id": "3",
+      "img": "budget",
+      "daerah": "balikpapan",
+      "date": "22 juli 2023",
+      "description": "jl sudirman majapahit"
+    },
+    {
+      "id": "4",
+      "img": "budget",
+      "daerah": "bali",
+      "date": "22 juli 2023",
+      "description": "jl mekar sari pelabuhan"
+    },
+    {
+      "id": "5",
+      "img": "budget",
+      "daerah": "jakarta",
+      "date": "22 juli 2023",
+      "description": "kampung dongeng indo"
+    }
+  ]
+}
